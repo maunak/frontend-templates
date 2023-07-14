@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+@font-face {
+    font-family: customFonts;
+    src: url(fonts/NeueMontreal-BoldItalic.otf);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: customFonts;
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-transform: uppercase;
+    font-family:neue ;
+    padding: 20px;
+}
+img{
+    position: relative;
+    left: 270px;
+    top: 100px;
+    height: 600px;
+    width: 400px;
+}
+
+@font-face {
+    font-family: neue;
+    src: url(fonts/NeueMontreal-Italic.otf);
+}
+a{
+    text-decoration: none;
+}
