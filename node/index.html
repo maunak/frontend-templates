@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Node implementation</h1>
+    <form action="/calculate" method="POST">
+        <label for="num1">Enter number 1:</label>
+        <input type="text" name="num1" id="num1">
+        <br>
+        <label for="num2">Enter number 2:</label>
+        <input type="text" name="num2" id="num2">
+        <br>
+        <input type="radio" name="operation" value="add" id="add">
+        <label for="add">Add</label>
+        <input type="radio" name="operation" value="subtract" id="subtract">
+        <label for="subtract">Subtract</label>
+        <input type="radio" name="operation" value="multiply" id="subtract">
+        <label for="subtract">Multiply</label>
+        <input type="radio" name="operation" value="download" id="download">
+        <label for="subtract">Download</label>
+        <br>
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>

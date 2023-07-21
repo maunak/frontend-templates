@@ -1,0 +1,79 @@
+/* styles.css */
+
+@font-face {
+  font-family: customFonts;
+  src: url(fonts/NeueMontreal-BoldItalic.otf);
+}
+/* Body styles */
+body {
+    font-family: customFonts;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 10px;
+    
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input styles */
+  form input[type="text"],
+  form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Result styles */
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+
+  button{
+    position: relative;
+    top: 15px;
+    background-color: #007bff ; 
+  }
+
+  *{
+    padding: 0.3em;
+  }
+
+
+
